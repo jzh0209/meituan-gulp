@@ -2,7 +2,7 @@
  * @Author: 冀占豪
  * @Date: 2018-12-01 10:43:05 
  * @Last Modified by: mikey.zhaopeng
- * @Last Modified time: 2018-12-02 18:31:25
+ * @Last Modified time: 2018-12-02 19:17:00
  */
 
 var gulp = require('gulp');
@@ -55,3 +55,9 @@ gulp.task('devServer', function() {
 
 //开发环境
 gulp.task('dev', gulp.series('devScss', 'devServer', 'watch'))
+
+//线上环境
+// gulp.task('bScss', function() {
+//     return gulp.src('./src/css/*.css');
+//     .pipe(gulp.dest('./build'));
+// })
