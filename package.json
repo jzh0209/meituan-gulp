@@ -1,0 +1,27 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "美团gulp",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jzh0209/meituan-gulp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jzh0209/meituan-gulp/issues"
+  },
+  "homepage": "https://github.com/jzh0209/meituan-gulp#readme",
+  "devDependencies": {
+    "gulp-clean-css": "^4.0.0",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.10.0"
+  },
+  "dependencies": {
+    "close": "0.0.1"
+  }
+}
